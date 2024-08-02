@@ -1,0 +1,20 @@
+[categories]
+arguments = { path = "arguments" }
+commands = { path = "commands" }
+interaction_handlers = { path = "interaction-handlers" }
+listeners = { path = "listeners" }
+preconditions = { path = "preconditions" }
+routes = { path = "routes" }
+
+[templates]
+argument = { category = "arguments", aliases = ["a", "arg"] }
+autocompleteinteractionhandler = { category = "interaction_handlers", aliases = ["aih", "autocomplete"] }
+buttoninteractionhandler = { category = "interaction_handlers", aliases = ["bih", "button"] }
+contextmenucommand = { category = "commands", aliases = ["cmc", "context"] }
+listener = { category = "listeners", aliases = ["l"] }
+messagecommand = { category = "commands", aliases = ["mc", "message"] }
+modalinteractionhandler = { category = "interaction_handlers", aliases = ["mih", "modal"] }
+precondition = { category = "preconditions", aliases = ["p"] }
+route = { category = "routes", aliases = ["r"] }
+selectmenuinteractionhandler = { category = "interaction_handlers", aliases = ["smih", "select"] }
+slashcommand = { category = "commands", aliases = ["sc", "command"] }
