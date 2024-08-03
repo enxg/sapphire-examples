@@ -42,7 +42,7 @@ export class UserCommand extends Command {
 	private async eval(message: Message, code: string, flags: { async: boolean; depth: number; showHidden: boolean }) {
 		if (flags.async) code = `(async () => {\n${code}\n})();`;
 
-		// @ts-expect-error value is never read, this is so `msg` is possible as an alias when sending the eval.
+		// @routes-expect-error value is never read, this is so `msg` is possible as an alias when sending the eval.
 		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		const msg = message;
 

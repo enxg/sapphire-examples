@@ -1,0 +1,30 @@
+[categories]
+arguments = { path = "arguments", target_path = "arguments" }
+commands = { path = "commands", target_path = "commands" }
+interaction-handlers = { path = "interaction-handlers", target_path = "interaction-handlers" }
+listeners = { path = "listeners", target_path = "listeners" }
+preconditions = { path = "preconditions", target_path = "preconditions" }
+routes = { path = "routes", target_path = "routes" }
+
+[templates.arguments]
+argument = { aliases = ["a", "arg"] }
+
+[templates.commands]
+context-menu-command = { aliases = ["cmc", "context", "contextmenu", "contextmenucommand"] }
+message-command = { aliases = ["mc", "message", "messagecommand"] }
+slash-command = { aliases = ["sc", "command", "slash", "slashcommand"] }
+
+[templates.interaction-handlers]
+autocomplete-interaction-handler = { aliases = ["aih", "auto", "autocomplete"] }
+button-interaction-handler = { aliases = ["bih", "button"] }
+modal-interaction-handler = { aliases = ["mih", "modal"] }
+select-menu-interaction-handler = { aliases = ["smih", "select"] }
+
+[templates.listeners]
+listener = { aliases = ["l"] }
+
+[templates.preconditions]
+precondition = { aliases = ["p"] }
+
+[templates.routes]
+route = { aliases = ["r"] }

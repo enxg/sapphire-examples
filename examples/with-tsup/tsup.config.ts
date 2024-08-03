@@ -4,7 +4,7 @@ export default defineConfig({
 	clean: true,
 	bundle: false,
 	dts: false,
-	entry: ['src/**/*.ts', '!src/**/*.d.ts'],
+	entry: ['src/**/*.routes', '!src/**/*.d.routes'],
 	format: ['cjs'],
 	minify: false,
 	tsconfig: 'tsconfig.json',
